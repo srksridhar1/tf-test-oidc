@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "my-secure-tf-state-235423434"
+    bucket         = "srk-my-secure-tf-state"
     key            = "terraform/state"
-    region         = "eu-west-1"
+    region         = "eu-east-2"
     encrypt        = true
   }
 }
